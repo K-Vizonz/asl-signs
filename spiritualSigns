@@ -1,0 +1,82 @@
+
+
+<html>
+    <head>
+        <title>ASL Website!</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                padding: 60px;
+                text-align: center;
+                background: #ffff4d;
+                color: white;
+                font-size: 30px;
+            }
+            .wrapper
+            {
+            margin: 0 auto;
+            width: 600px;
+            }
+            video
+            {
+                width: 100%;
+                
+            }
+            .videowrapper
+            {
+                position: relative;
+                padding-bottom: 56.25%;
+                padding-top: 25px;
+                height: 0px;
+            }
+            .videowrapper iframe
+            {
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                top: 0px;
+                height: 100%;
+                width: 100%;
+            }
+            h1
+            {
+            text-align: center;    
+            }
+            p1 
+            {
+            font-size: 30px;
+            font-family: "Times New Roman", Times, serif;    
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+        <h1 style = "color:black">ASL Spiritual Signs!</h1>
+        </div>
+        
+        <div class = "wrapper">
+            <!---for videos that are on my server (computer)--->
+            <br>
+            <p1>Child</p1>
+            <video src="Signs/child.mov" controls></video>
+            <br><br><br>
+            <!---for youtube videos - embedding them--->
+
+            <p1>Jesus Christ</p1>
+            <br>
+            <div class="videowrapper">
+                <iframe src="https://www.youtube.com/embed/TiPPLQvULi4" frameborder ="0" allowfullscreen></iframe>
+            </div><br><br><br>
+            <p1>Meeting</p1>
+            <br>
+            <div class="videowrapper">
+                <iframe src="https://www.youtube.com/embed/lcUrAFJQvnQ" frameborder ="0" allowfullscreen></iframe>
+                </div><br><br><br>
+        </div>
+    </body>
+</html>
